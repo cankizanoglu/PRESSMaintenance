@@ -15,9 +15,9 @@ class BakimUyarisiSistemi:
             conn = pyodbc.connect(
                 r"Driver={SQL Server};"
                 r"Server=192.168.1.15;"  # Sunucu ve instance adı (raw string kullanıldı)
-                "Database=HTSLIFE_TEST;"              # Veritabanı adı
-                   "UID=SA;"   # SQL Server'daki kullanıcı adı
-                   "PWD=;"         # Windows kimlik doğrulaması
+                "Database=DB NAME;"              # Veritabanı adı
+                   "UID=DB UID;"   # SQL Server'daki kullanıcı adı
+                   "PWD= DB PWD;"         # Windows kimlik doğrulaması
             )
             return conn
         except Exception as e:
