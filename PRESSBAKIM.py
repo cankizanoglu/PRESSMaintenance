@@ -69,8 +69,8 @@ class BakimUyarisiSistemi:
 # Uygulama
 sistem = BakimUyarisiSistemi(
     esik_degeri=5, 
-    token="7921684277:AAF_3jtaqBl5GhZl5nWBcSS_Rkq4SdgrZHI",  # Bot token'ınızı buraya yazın
-    chat_id="6580000530"  # Chat ID'nizi buraya yazın
+    token="x",  # Bot token'ınızı buraya yazın
+    chat_id="x"  # Chat ID'nizi buraya yazın
 )
 
 # Press sayısına bağlı olarak bildirim gönderme
